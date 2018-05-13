@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_xxhdpi"
+    tools:context="com.example.asus.parkalot.activity.IndexActivity">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="357dp"
+        android:layout_height="637dp"
+        android:layout_marginBottom="3dp"
+        android:layout_marginEnd="3dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="298dp"
+            android:layout_height="549dp"
+            android:orientation="vertical"
+            android:padding="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.37">
+
+            <TextView
+                android:id="@+id/TVUname"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="TextView"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_light"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/newBtn"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/buttonshape"
+                android:drawableLeft="@drawable/ic_action_new"
+                android:fontFamily="@font/alfa_slab_one"
+                android:onClick="newBooking"
+                android:padding="10dp"
+                android:text="New Booking"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_dark"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/viewBtn"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/buttonshape"
+                android:drawableLeft="@drawable/ic_action_view"
+                android:fontFamily="@font/alfa_slab_one"
+                android:onClick="viewSpaces"
+                android:padding="10dp"
+                android:text="View Spaces"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_dark"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/myBtn"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/buttonshape"
+                android:drawableLeft="@drawable/ic_action_name"
+                android:fontFamily="@font/alfa_slab_one"
+                android:onClick="viewProfile"
+                android:padding="10dp"
+                android:text="My Details"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_dark"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/cancelBtn"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/buttonshape"
+                android:drawableLeft="@drawable/ic_action_cancel"
+                android:fontFamily="@font/alfa_slab_one"
+                android:onClick="viewBooking"
+                android:padding="10dp"
+                android:text="Manage Booking"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_dark"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/logoutBtn"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/buttonshape"
+                android:drawableLeft="@drawable/ic_action_logout"
+                android:fontFamily="@font/alfa_slab_one"
+                android:onClick="logOut"
+                android:padding="10dp"
+                android:text="Log Out"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_dark"
+                android:textSize="24sp" />
+        </LinearLayout>
+    </android.support.constraint.ConstraintLayout>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Parkalot</string>
+    <string-array name="category_array">
+        <item>Standard</item>
+        <item>Nova</item>
+        <item>Elite</item>
+    </string-array>
+    <string-array name="duration_array">
+        <item>Select Duration</item>
+        <item>1 hr</item>
+        <item>2 hrs</item>
+        <item>3 hrs</item>
+    </string-array>
+</resources>
